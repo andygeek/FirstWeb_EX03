@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pricing-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*el tipo de flexibilidad, wrap hace que se acomoden al achicar*/
+    flex-wrap: wrap;
+}
+.col{
+    padding: 10px;
+    min-width: 250px;
+}
+.table{
+    background-color: #ffffff;
+}
