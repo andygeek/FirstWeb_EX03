@@ -20,4 +20,39 @@ body{
 }
 .table{
     background-color: #ffffff;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    /**/
+    position: relative;
+    overflow: hidden;
+    /**/
+    box-shadow: 0 0 20px #000000;
+}
+.table h2{
+    text-transform: uppercase;
+}
+.table ul{
+    padding: 10px 0;
+    list-style: none;
+}
+.table ul li{
+    padding: 5px 0;
+    list-style: none;
+}
+.price{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.price span{
+    display: block;
+    font-size: 19px;
+}
+.table a{
+    text-decoration: none;
+    color: #2c3e50;
+    border:  2px solid #2c3e50;
+    display: block;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-radius: 40px;
 }
