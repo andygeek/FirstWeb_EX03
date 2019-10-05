@@ -19,14 +19,16 @@ body{
     min-width: 250px;
 }
 .table{
+    opacity:0.9;
     background-color: #ffffff;
     padding: 40px 20px;
     font-family: sans-serif;
-    /**/
+    /*importantes para la cinta de POPULAR*/
     position: relative;
     overflow: hidden;
     /**/
     box-shadow: 0 0 20px #000000;
+    border-radius: 20px;
 }
 .table h2{
     text-transform: uppercase;
@@ -55,4 +57,18 @@ body{
     padding: 10px 0;
     margin: 5px 0;
     border-radius: 40px;
+    transition: 0.4s linear;
+}
+.table a:hover{
+    background: #2c3e50;
+    color: #ffffff;
+}
+.pop{
+    background-color: #2c3e50;
+    color: #ffffff;
+    transform: rotate(45deg);
+    padding: 10px 40px;
+    position: absolute;
+    top: 15px;
+    right: -34px;
 }
